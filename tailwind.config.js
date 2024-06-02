@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        karla: ["Karla", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+      },
+      backgroundImage: {
+        'blueCircle': "url('src/assets/blueCircle.png')",
+        'greenCircle': "url('src/assets/greenCircle.png')",
+      }
+    },
   },
   plugins: [],
 }

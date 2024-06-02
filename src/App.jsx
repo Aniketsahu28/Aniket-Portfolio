@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import DesktopNavbar from "./Components/DesktopNavbar"
 import MobileNavbar from "./Components/MobileNavbar";
+import HeroSection from "./Components/HeroSection";
 
 function App() {
   const [isMobile, setIsMobile] = useState(
@@ -15,10 +16,9 @@ function App() {
   window.onresize = checkIsMobile;
   return (
     <Router>
-      <div className="bg-black h-[100vh] w-[100vw] flex flex-col items-center py-6">
+      <div className="bg-black flex flex-col items-center py-6">
         {isMobile ? <MobileNavbar /> : <DesktopNavbar />}
-
-
+        <HeroSection />
       </div>
     </Router>
   )
