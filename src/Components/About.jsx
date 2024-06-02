@@ -17,7 +17,7 @@ const About = () => {
                     <h2 className='text-4xl sm:text-6xl font-semibold mb-2 font-inter'>About me</h2>
                     <hr className='w-[70%] h-[2px] sm:h-[3px] font-bold bg-[#1AC576]' />
                 </div>
-                <p className='text-xl font-karla sm:text-2xl'>Introduction</p>
+                <p className='font-karla sm:text-xl'>Introduction</p>
             </div>
             <div className='sm:flex sm:flex-row sm:gap-10 sm:justify-around items-center'>
                 {!isMobile &&

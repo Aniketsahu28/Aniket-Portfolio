@@ -4,6 +4,7 @@ import DesktopNavbar from "./Components/DesktopNavbar"
 import MobileNavbar from "./Components/MobileNavbar";
 import HeroSection from "./Components/HeroSection";
 import About from "./Components/About";
+import Technologies from "./Components/Technologies";
 
 function App() {
   const [isMobile, setIsMobile] = useState(
@@ -21,6 +22,7 @@ function App() {
         {isMobile ? <MobileNavbar /> : <DesktopNavbar />}
         <HeroSection />
         <About />
+        <Technologies />
       </div>
     </Router>
   )
