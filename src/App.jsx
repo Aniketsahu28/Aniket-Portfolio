@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import DesktopNavbar from "./Components/DesktopNavbar"
 import MobileNavbar from "./Components/MobileNavbar";
 import HeroSection from "./Components/HeroSection";
+import About from "./Components/About";
 
 function App() {
   const [isMobile, setIsMobile] = useState(
@@ -19,6 +20,7 @@ function App() {
       <div className="bg-black flex flex-col items-center py-6">
         {isMobile ? <MobileNavbar /> : <DesktopNavbar />}
         <HeroSection />
+        <About />
       </div>
     </Router>
   )
