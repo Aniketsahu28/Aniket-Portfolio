@@ -12,12 +12,12 @@ const About = () => {
     window.onresize = checkIsMobile;
     return (
         <div className='text-white text-center px-[20px] flex-col gap-6 sm:gap-14 flex py-8 sm:py-16 sm:px-28'>
-            <div className='flex flex-col items-center justify-center gap-2'>
+            <div className='flex flex-col items-center justify-center gap-4'>
                 <div className='w-fit flex flex-col items-center text-[#1AC576]'>
                     <h2 className='text-4xl sm:text-6xl font-semibold mb-2 font-inter'>About me</h2>
                     <hr className='w-[70%] h-[2px] sm:h-[3px] font-bold bg-[#1AC576]' />
                 </div>
-                <p className='font-karla sm:text-xl'>Introduction</p>
+                <p className='font-karla sm:text-md'>Introduction</p>
             </div>
             <div className='sm:flex sm:flex-row sm:gap-10 sm:justify-around items-center'>
                 {!isMobile &&

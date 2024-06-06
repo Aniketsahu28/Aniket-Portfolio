@@ -5,6 +5,7 @@ import MobileNavbar from "./Components/MobileNavbar";
 import HeroSection from "./Components/HeroSection";
 import About from "./Components/About";
 import Technologies from "./Components/Technologies";
+import Project from "./Components/Project"
 
 function App() {
   const [isMobile, setIsMobile] = useState(
@@ -23,6 +24,7 @@ function App() {
         <HeroSection />
         <About />
         <Technologies />
+        <Project />
       </div>
     </Router>
   )

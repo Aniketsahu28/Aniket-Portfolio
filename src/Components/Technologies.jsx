@@ -66,12 +66,12 @@ const Technologies = () => {
 
     return (
         <div className='text-white text-center px-[20px] flex-col gap-6 sm:gap-14 flex py-8 sm:py-16 sm:px-28 items-center'>
-            <div className='flex flex-col items-center justify-center gap-2'>
+            <div className='flex flex-col items-center justify-center gap-4'>
                 <div className='w-fit flex flex-col items-center text-[#1AC576]'>
                     <h2 className='text-4xl sm:text-6xl font-semibold mb-2 font-karla'>Technologies</h2>
                     <hr className='w-[70%] h-[2px] sm:h-[3px] font-bold bg-[#1AC576]' />
                 </div>
-                <p className='text font-inter sm:text-xl'>Proficiencies I've developed in various technologies</p>
+                <p className='text font-inter sm:text-md'>Proficiencies I've developed in various technologies</p>
             </div>
             <div className='flex flex-wrap gap-8 items-center justify-center sm:w-[80%]'>
                 {Techs.map((tech, index) => (
