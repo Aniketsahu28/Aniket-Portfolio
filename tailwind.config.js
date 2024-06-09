@@ -15,6 +15,9 @@ export default {
         'greenCircle': "url('src/assets/greenCircle.png')",
       }
     },
+    screens: {
+      'lap': '850px',
+    }
   },
   plugins: [],
 }

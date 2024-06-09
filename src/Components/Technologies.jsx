@@ -65,19 +65,19 @@ const Technologies = () => {
     }
 
     return (
-        <div className='text-white text-center px-[20px] flex-col gap-6 sm:gap-14 flex py-8 sm:py-16 sm:px-28 items-center'>
+        <div className='text-white text-center px-[20px] flex-col gap-6 lap:gap-14 flex py-8 lap:py-16 lap:px-28 items-center'>
             <div className='flex flex-col items-center justify-center gap-4'>
                 <div className='w-fit flex flex-col items-center text-[#1AC576]'>
-                    <h2 className='text-4xl sm:text-6xl font-semibold mb-2 font-karla'>Technologies</h2>
-                    <hr className='w-[70%] h-[2px] sm:h-[3px] font-bold bg-[#1AC576]' />
+                    <h2 className='text-4xl lap:text-6xl font-semibold mb-2 font-karla'>Technologies</h2>
+                    <hr className='w-[70%] h-[2px] lap:h-[3px] font-bold bg-[#1AC576]' />
                 </div>
-                <p className='text font-inter sm:text-md'>Proficiencies I've developed in various technologies</p>
+                <p className='text font-inter lap:text-md'>Proficiencies I've developed in various technologies</p>
             </div>
-            <div className='flex flex-wrap gap-8 items-center justify-center sm:w-[80%]'>
+            <div className='flex flex-wrap gap-8 items-center justify-center lap:w-[80%]'>
                 {Techs.map((tech, index) => (
                     <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id={index} key={index} className='border-[3px] border-[#0E76D8] w-fit p-5 rounded-lg relative flex items-center justify-center bg-none'>
                         <p className={`text-md font-semibold font-inter absolute uppercase ${show == index ? "flex" : "hidden"}`}>{tech.name}</p>
-                        <img src={tech.image} alt="technology" className={`w-20 sm:w-16 ${show == index ? 'opacity-30 scale-125' : 'opacity-100 scale-100'} transition-all`} />
+                        <img src={tech.image} alt="technology" className={`w-20 lap:w-16 ${show == index ? 'opacity-30 scale-125' : 'opacity-100 scale-100'} transition-all`} />
                     </div>
                 ))}
             </div>

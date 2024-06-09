@@ -9,11 +9,11 @@ import Project from "./Components/Project"
 
 function App() {
   const [isMobile, setIsMobile] = useState(
-    window.innerWidth < 820 ? true : false
+    window.innerWidth < 850 ? true : false
   );
 
   function checkIsMobile() {
-    setIsMobile(window.innerWidth < 820 ? true : false);
+    setIsMobile(window.innerWidth < 850 ? true : false);
   }
 
   window.onresize = checkIsMobile;
