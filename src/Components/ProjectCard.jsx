@@ -12,7 +12,7 @@ const ProjectCard = (params) => {
     }
 
     return (
-        <div className='text-start border-[3px] border-[#0E76D8] rounded-xl flex flex-col gap-3 font-inter pb-[16px] lap:min-w-[30%]'>
+        <div className='text-start border-[3px] border-[#0E76D8] rounded-xl flex flex-col gap-3 font-inter pb-[16px] min-w-[100%] lap:min-w-[30%]'>
             <img src={params.image} alt="Project" className='rounded-t-xl' />
             <div className='px-[16px] flex flex-col gap-2'>
                 <h3 className='text-xl font-semibold'>{params.title}</h3>
