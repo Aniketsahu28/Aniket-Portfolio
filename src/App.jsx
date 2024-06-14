@@ -7,6 +7,7 @@ import About from "./Components/About";
 import Technologies from "./Components/Technologies";
 import Project from "./Components/Project"
 import Experiences from "./Components/Experiences";
+import Achievements from "./Components/Achievements";
 
 function App() {
   const [isMobile, setIsMobile] = useState(
@@ -27,6 +28,7 @@ function App() {
         <Technologies />
         <Project />
         <Experiences />
+        <Achievements />
       </div>
     </Router>
   )
