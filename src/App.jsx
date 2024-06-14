@@ -9,6 +9,8 @@ import Project from "./Components/Project"
 import Experiences from "./Components/Experiences";
 import Achievements from "./Components/Achievements";
 import Testimonials from "./Components/Testimonials";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   const [isMobile, setIsMobile] = useState(
@@ -22,7 +24,7 @@ function App() {
   window.onresize = checkIsMobile;
   return (
     <Router>
-      <div className="bg-black flex flex-col items-center py-6">
+      <div className="bg-black flex flex-col items-center pt-6">
         {isMobile ? <MobileNavbar /> : <DesktopNavbar />}
         <HeroSection />
         <About />
@@ -31,6 +33,8 @@ function App() {
         <Experiences />
         <Achievements />
         <Testimonials />
+        <Contact />
+        <Footer />
       </div>
     </Router>
   )

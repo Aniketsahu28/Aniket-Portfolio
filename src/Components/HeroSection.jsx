@@ -1,7 +1,16 @@
 import React from 'react'
 import Aniket from "../assets/Aniket.jpg"
+import AniketResume from "../assets/AniketResume.pdf"
 
 const HeroSection = () => {
+
+    const handleClick = (event, id) => {
+        event.preventDefault();
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
 
     return (
         <div className='text-white pt-28 pb-14 w-full flex flex-col lap:flex-row-reverse justify-center lap:justify-evenly items-center gap-6 overflow-hidden px-10'>
@@ -20,8 +29,13 @@ const HeroSection = () => {
                     <span className='text-[#1AC576] font-semibold'>{`< Full Stack web Developer />`}</span>
                 </p>
                 <div className='flex gap-4 text-xl font-medium mt-1'>
-                    <button className='bg-[#1AC576] text-black hover:text-white py-2 px-4  rounded-lg'>About me</button>
-                    <button className='border-[#1AC576] border-2 py-2 px-4 text-white rounded-lg hover:text-[#1AC576]'>Get Resume</button>
+                    <button className='bg-[#1AC576] text-black hover:text-white py-2 px-4  rounded-lg' onClick={(e) => handleClick(e, "about")}>About me</button>
+                    <a
+                        href={AniketResume}
+                        download="Aniket Resume"
+                        target="_blank"
+                        rel="noreferrer"
+                        className='border-[#1AC576] border-2 py-2 px-4 text-white rounded-lg hover:text-[#1AC576]'>Get Resume</a>
                 </div>
             </div>
         </div>

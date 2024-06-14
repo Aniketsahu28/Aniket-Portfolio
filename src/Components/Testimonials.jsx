@@ -42,7 +42,7 @@ const Testimonials = () => {
                                 <img src={testimonial.image} alt="person" className='h-12' />
                                 <div className='text-start'>
                                     <p className='text-[18px]'>
-                                        {testimonial.name} <br />
+                                        <span className='text-[#0E76D8]'>@</span> {testimonial.name} <br />
                                         <span className='text-[14px] opacity-80'>{testimonial.position}</span>
                                     </p>
                                 </div>

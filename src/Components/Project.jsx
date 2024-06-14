@@ -92,7 +92,7 @@ const Project = () => {
     ]
 
     return (
-        <div className='text-white text-center px-[20px] flex-col gap-6 lap:gap-14 flex pt-8 pb-32 lap:py-16 lap:px-20 items-center w-[100%]'>
+        <div className='text-white text-center px-[20px] flex-col gap-6 lap:gap-14 flex pt-8 pb-32 lap:py-16 lap:px-20 items-center w-[100%]' id='project'>
             <div className='flex flex-col items-center justify-center gap-4'>
                 <div className='w-fit flex flex-col items-center text-[#1AC576]'>
                     <h2 className='text-4xl lap:text-6xl font-semibold mb-2 font-karla'>Projects</h2>

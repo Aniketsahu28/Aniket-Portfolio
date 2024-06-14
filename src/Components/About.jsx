@@ -11,7 +11,7 @@ const About = () => {
 
     window.onresize = checkIsMobile;
     return (
-        <div className='text-white text-center px-[20px] flex-col gap-6 lap:gap-14 flex py-8 lap:py-16 lap:px-28'>
+        <div className='text-white text-center px-[20px] flex-col gap-6 lap:gap-14 flex py-8 lap:py-16 lap:px-28' id='about'>
             <div className='flex flex-col items-center justify-center gap-4'>
                 <div className='w-fit flex flex-col items-center text-[#1AC576]'>
                     <h2 className='text-4xl lap:text-6xl font-semibold mb-2 font-karla'>About me</h2>
