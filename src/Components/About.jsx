@@ -14,10 +14,10 @@ const About = () => {
         <div className='text-white text-center px-[20px] flex-col gap-6 lap:gap-14 flex py-8 lap:py-16 lap:px-28'>
             <div className='flex flex-col items-center justify-center gap-4'>
                 <div className='w-fit flex flex-col items-center text-[#1AC576]'>
-                    <h2 className='text-4xl lap:text-6xl font-semibold mb-2 font-inter'>About me</h2>
+                    <h2 className='text-4xl lap:text-6xl font-semibold mb-2 font-karla'>About me</h2>
                     <hr className='w-[70%] h-[2px] lap:h-[3px] font-bold bg-[#1AC576]' />
                 </div>
-                <p className='font-karla lap:text-md'>Introduction</p>
+                <p className='font-inter lap:text-md'>Introduction</p>
             </div>
             <div className='lap:flex lap:flex-row lap:gap-10 lap:justify-around items-center'>
                 {!isMobile &&

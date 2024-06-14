@@ -30,8 +30,8 @@ const ProjectCard = (params) => {
                         <span className='text-[16px]'>Live preview</span>
                     </Link>
                     {params.category == "development" &&
-                        <Link to={params.githubLink} className='flex gap-2'>
-                            <img src={github} alt="github" />
+                        <Link to={params.githubLink} className='flex gap-2 items-center justify-center'>
+                            <img src={github} alt="github" className='h-5' />
                             <span className='text-[16px]'>View Code</span>
                         </Link>
                     }
