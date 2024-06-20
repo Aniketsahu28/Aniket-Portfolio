@@ -66,7 +66,7 @@ const Technologies = () => {
 
     return (
         <div className='text-white text-center px-[20px] flex-col gap-6 lap:gap-14 flex py-8 lap:py-16 lap:px-28 items-center' id='technologies'>
-            <div className='flex flex-col items-center justify-center gap-4'>
+            <div data-aos="fade-up" data-aos-duration="1000" className='flex flex-col items-center justify-center gap-4'>
                 <div className='w-fit flex flex-col items-center text-[#1AC576]'>
                     <h2 className='text-4xl lap:text-6xl font-semibold mb-2 font-karla'>Technologies</h2>
                     <hr className='w-[70%] h-[2px] lap:h-[3px] font-bold bg-[#1AC576]' />
@@ -75,7 +75,7 @@ const Technologies = () => {
             </div>
             <div className='flex flex-wrap gap-8 items-center justify-center lap:w-[80%]'>
                 {Techs.map((tech, index) => (
-                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id={index} key={index} className='border-[3px] border-[#0E76D8] w-fit p-5 rounded-lg relative flex items-center justify-center bg-none'>
+                    <div data-aos="zoom-in-up" data-aos-duration="800" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id={index} key={index} className='border-[3px] border-[#0E76D8] w-fit p-5 rounded-lg relative flex items-center justify-center bg-none'>
                         <p className={`text-md font-semibold font-inter absolute uppercase ${show == index ? "flex" : "hidden"}`}>{tech.name}</p>
                         <img src={tech.image} alt="technology" className={`w-20 lap:w-16 ${show == index ? 'opacity-30 scale-125' : 'opacity-100 scale-100'} transition-all`} />
                     </div>

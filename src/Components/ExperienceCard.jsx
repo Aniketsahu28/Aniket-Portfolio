@@ -6,7 +6,7 @@ const ExperienceCard = ({ experience }) => {
     const [open, setIsOpen] = useState(false);
     return (
         <div
-            className={`border-[3px] border-[#0E76D8] rounded-xl flex flex-col font-inter py-3 px-4 w-full transition-all ease-in-out duration-700`}
+            className={`border-[3px] border-[#0E76D8] rounded-xl flex flex-col font-inter py-3 px-4 w-full transition-all ease-in-out duration-700 cursor-pointer`}
             onClick={() => setIsOpen(!open)}
         >
             <div className='flex flex-col justify-center gap-2 lap:flex-row lap:justify-between'>

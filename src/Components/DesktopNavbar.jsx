@@ -12,7 +12,7 @@ const DesktopNavbar = () => {
     };
 
     return (
-        <div className='border-[#0E76D8] border-2 w-[90%] rounded-lg py-2 px-6 flex items-center justify-between'>
+        <div data-aos="fade-down" data-aos-duration="1000" className='border-[#0E76D8] border-2 w-[90%] rounded-lg py-2 px-6 flex items-center justify-between'>
             <Link><img src={AniketLogo} alt="Logo" className='h-8 -translate-y-1' /></Link>
             <div className='text-white flex lap:gap-10 lg:gap-10 text-lg'>
                 <Link to="#about" className='hover:text-[#1AC576]' onClick={(e) => handleClick(e, "about")}>About</Link>

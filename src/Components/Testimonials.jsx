@@ -25,14 +25,14 @@ const Testimonials = () => {
     ]
     return (
         <div className='text-white text-center px-[20px] flex-col gap-6 lap:gap-14 flex py-8 lap:py-16 lap:px-28 w-full'>
-            <div className='flex flex-col items-center justify-center gap-4'>
+            <div data-aos="fade-up" data-aos-duration="1000" className='flex flex-col items-center justify-center gap-4'>
                 <div className='w-fit flex flex-col items-center text-[#1AC576]'>
                     <h2 className='text-4xl lap:text-6xl font-semibold mb-2 font-karla'>Testimonials</h2>
                     <hr className='w-[70%] h-[2px] lap:h-[3px] font-bold bg-[#1AC576]' />
                 </div>
                 <p className='font-inter lap:text-md'>What others say about me</p>
             </div>
-            <div className='flex flex-col lap:flex-row lap:flex-wrap items-center justify-center gap-6 lap:gap-10 font-inter'>
+            <div data-aos="fade-up" data-aos-duration="1000" className='flex flex-col lap:flex-row lap:flex-wrap items-center justify-center gap-6 lap:gap-10 font-inter'>
                 {
                     testimonials.map((testimonial, i) => (
                         <div key={i} className='border-[3px] border-[#0E76D8] rounded-xl flex flex-col gap-4 p-[20px] lap:w-[30%]'>

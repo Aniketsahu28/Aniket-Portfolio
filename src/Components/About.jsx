@@ -12,14 +12,14 @@ const About = () => {
     window.onresize = checkIsMobile;
     return (
         <div className='text-white text-center px-[20px] flex-col gap-6 lap:gap-14 flex py-8 lap:py-16 lap:px-28' id='about'>
-            <div className='flex flex-col items-center justify-center gap-4'>
+            <div data-aos="fade-up" data-aos-duration="1000" className='flex flex-col items-center justify-center gap-4'>
                 <div className='w-fit flex flex-col items-center text-[#1AC576]'>
                     <h2 className='text-4xl lap:text-6xl font-semibold mb-2 font-karla'>About me</h2>
                     <hr className='w-[70%] h-[2px] lap:h-[3px] font-bold bg-[#1AC576]' />
                 </div>
                 <p className='font-inter lap:text-md'>Introduction</p>
             </div>
-            <div className='lap:flex lap:flex-row lap:gap-10 lap:justify-around items-center'>
+            <div data-aos="fade-up" data-aos-duration="1000" className='lap:flex lap:flex-row lap:gap-10 lap:justify-around items-center'>
                 {!isMobile &&
                     <div className='flex flex-col gap-6 w-[30%] text-xl'>
                         <span className='px-4 py-3 border-[#0E76D8] border-[3px] w-fit rounded-lg hover:border-[#1AC576] hover:scale-105 transition-all self-end'>Full Stack web Developer</span>

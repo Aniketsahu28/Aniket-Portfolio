@@ -15,7 +15,7 @@ const MobileNavbar = () => {
     };
 
     return (
-        <div className="absolute w-[95%] bg-mainBlue py-2 pr-2 pl-4 z-10 border-[#0E76D8] border-2 rounded-lg bg-black">
+        <div data-aos="fade-down" className="absolute w-[95%] bg-mainBlue py-2 pr-2 pl-4 z-10 border-[#0E76D8] border-2 rounded-lg bg-black">
             <div className="flex justify-between items-center">
                 <Link to="/">
                     <img className="h-[36px]" src={AniketLogo} alt="Logo" />
