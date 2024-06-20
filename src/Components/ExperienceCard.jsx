@@ -10,7 +10,7 @@ const ExperienceCard = ({ experience }) => {
             onClick={() => setIsOpen(!open)}
         >
             <div className='flex flex-col justify-center gap-2 lap:flex-row lap:justify-between'>
-                <h3 className='font-medium lap:font-normal text-start text-[18px]'>{experience.title}</h3>
+                <h3 className='font-medium lap:font-normal text-start text-[16px]'>{experience.title}</h3>
                 <div className='flex justify-between items-center lap:gap-4 lap:text-[14px]'>
                     <p className='opacity-80'>{experience.startDate} - {experience.endDate}</p>
                     <img src={plus} alt="icon" className={`w-6 transition-transform duration-700 ${open ? 'rotate-45' : ''}`} />

@@ -28,9 +28,9 @@ const About = () => {
                         <span className='px-4 py-3 border-[#0E76D8] border-[3px] w-fit rounded-lg hover:border-[#1AC576] hover:scale-105 transition-all self-start'>Participates in hackathons</span>
                     </div>}
                 <p className='font-inter lap:w-[60%] lap:text-[17px] lap:leading-7 lap:text-justify'>
-                    I am a 3rd year undergraduate student currently pursuing my Computer Engineering degree at FCRIT (Father Agnels), vashi.
+                    I am a 4th year undergraduate student currently pursuing my Computer Engineering degree at FCRIT (Father Agnels), vashi.
                     <br /><br />
-                    I am a passionate Web developer, UI/UX designer and a freelancer. Through hands-on experience and a commitment to ongoing learning, I have honed my skills in HTML, CSS, Tailwind CSS, Javascript, React, mongoDB, java, figma. Beyond the coding realm, I extend my expertise to UI/UX design, where I leverage tools such as Figma to conceptualize and create user-centric interfaces. The fusion of my technical skills with a keen eye for design enables me to deliver holistic solutions that prioritize both functionality and aesthetics. I also have a good understanding of no-code websites such as wordpress and webflow.
+                    I am a passionate Web developer, UI/UX designer and a freelancer. Through hands-on experience and a commitment to ongoing learning, I have honed my skills in HTML, CSS, Tailwind CSS, Javascript, React, mongoDB, java. Beyond the coding realm, I extend my expertise to UI/UX design, where I leverage tools such as Figma to conceptualize and create user-centric interfaces. The fusion of my technical skills with a keen eye for design enables me to deliver holistic solutions that prioritize both functionality and aesthetics. I also hold expertise in creating no-code websites using wordpress and webflow.
                 </p>
             </div>
         </div>

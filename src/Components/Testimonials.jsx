@@ -1,27 +1,22 @@
 import React from 'react'
 import comment from "../assets/comment.png"
 import thejus from "../assets/thejus.png"
+import abhishek from "../assets/abhishek.jpg"
 
 const Testimonials = () => {
     const testimonials = [
         {
-            comment: "I'm delighted to provide a testimonial for our college fest webiste. The platform is engaging, user-friendly and captured the spirit of our event. Their commitment were commendable, contributing significant to our fest's success.",
-            image: thejus,
-            name: "Thejus Pradeep",
-            position: "Joint Secretary of Student Council"
+            comment: "Flexibility that the website offers across screens is nothing short of remarkable, ensuring a seamless experience that's both user-friendly and visually stunning.",
+            image: abhishek,
+            name: "Abhishek Sahu",
+            position: ""
         },
         {
-            comment: "I'm delighted to provide a testimonial for our college fest webiste. The platform is engaging, user-friendly and captured the spirit of our event. Their commitment were commendable, contributing significant to our fest's success.",
+            comment: "The platform is engaging, user-friendly and captured the spirit of our event. The commitment were commendable, contributing significant to our fest's success.",
             image: thejus,
             name: "Thejus Pradeep",
-            position: "Joint Secretary of Student Council"
+            position: "Ex Joint Secretary of Student Council"
         },
-        {
-            comment: "I'm delighted to provide a testimonial for our college fest webiste. The platform is engaging, user-friendly and captured the spirit of our event. Their commitment were commendable, contributing significant to our fest's success.",
-            image: thejus,
-            name: "Thejus Pradeep",
-            position: "Joint Secretary of Student Council"
-        }
     ]
     return (
         <div className='text-white text-center px-[20px] flex-col gap-6 lap:gap-14 flex py-8 lap:py-16 lap:px-28 w-full'>
@@ -39,11 +34,11 @@ const Testimonials = () => {
                             <img src={comment} alt="icon" className='w-8' />
                             <p className='text-left'>{testimonial.comment}</p>
                             <div className='flex mt-4 gap-4'>
-                                <img src={testimonial.image} alt="person" className='h-12' />
-                                <div className='text-start'>
+                                <img src={testimonial.image} alt="person" className='h-12 rounded-full' />
+                                <div className='text-start flex items-center'>
                                     <p className='text-[18px]'>
                                         <span className='text-[#0E76D8]'>@</span> {testimonial.name} <br />
-                                        <span className='text-[14px] opacity-80'>{testimonial.position}</span>
+                                        {testimonial.position && <span className='text-[14px] opacity-80'>{testimonial.position}</span>}
                                     </p>
                                 </div>
                             </div>

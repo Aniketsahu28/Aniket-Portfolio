@@ -1,32 +1,19 @@
 import React from 'react'
 import achievement from "../assets/achievement.png"
+import ICNTE from "../assets/ICNTE.jpg"
+import Hacktober2023 from "../assets/Hacktober2023.png"
 
 const Achievements = () => {
     const achievements = [
         {
-            image: achievement,
-            title: "TECHFEST hackathon winner",
-            date: "1 january 2024"
+            image: ICNTE,
+            title: "ICNTE 2023 winner",
+            date: "20-21 January 2023"
         },
         {
-            image: achievement,
-            title: "TECHFEST hackathon winner",
-            date: "1 january 2024"
-        },
-        {
-            image: achievement,
-            title: "TECHFEST hackathon winner",
-            date: "1 january 2024"
-        },
-        {
-            image: achievement,
-            title: "TECHFEST hackathon winner",
-            date: "1 january 2024"
-        },
-        {
-            image: achievement,
-            title: "TECHFEST hackathon winner",
-            date: "1 january 2024"
+            image: Hacktober2023,
+            title: "Hacktober fest 2023 Contributor",
+            date: "January 2023"
         },
     ]
     return (

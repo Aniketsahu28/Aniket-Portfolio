@@ -9,6 +9,7 @@ import tailwind from "../assets/Technologies/tailwind.png"
 import webflow from "../assets/Technologies/webflow.png"
 import git from "../assets/Technologies/git.png"
 import react from "../assets/Technologies/react.png"
+import wordpress from "../assets/Technologies/wordpress.png"
 
 const Technologies = () => {
     const Techs = [
@@ -43,6 +44,10 @@ const Technologies = () => {
         {
             name: "Java",
             image: java
+        },
+        {
+            name: "Wordpress",
+            image: wordpress
         },
         {
             name: "Webflow",

@@ -7,18 +7,10 @@ const Experiences = () => {
         {
             title: "Full Stack developer @Revergon Solutions",
             startDate: "30th May, 2024",
-            endDate: "31st July, 2024",
-            location: "Navi Mumbai, India",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt impedit accusantium fuga, eveniet modi cumque sint magnam officiis adipisci exercitationem doloremque expedita, ratione doloribus fugiat. Repellendus, alias itaque. Ipsam earum, facilis obcaecati totam, quas rem nisi autem eligendi voluptatem, doloremque eum distinctio debitis? Maxime, doloremque sed repellendus perspiciatis repellat, minima nisi vel adipisci iure delectus et earum provident nostrum! Fuga?",
-            tags: ["Figma", "AR-VR", "Wordpress"]
-        },
-        {
-            title: "Frontend developer @Ideaplots",
-            startDate: "October 6, 2023",
             endDate: "Present",
             location: "Navi Mumbai, India",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt impedit accusantium fuga, eveniet modi cumque sint magnam officiis adipisci exercitationem doloremque expedita, ratione doloribus fugiat. Repellendus, alias itaque. Ipsam earum, facilis obcaecati totam, quas rem nisi autem eligendi voluptatem, doloremque eum distinctio debitis? Maxime, doloremque sed repellendus perspiciatis repellat, minima nisi vel adipisci iure delectus et earum provident nostrum! Fuga? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt impedit accusantium fuga, eveniet modi cumque sint magnam officiis adipisci exercitationem doloremque expedita, ratione doloribus fugiat. Repellendus, alias itaque. Ipsam earum, facilis obcaecati totam, quas rem nisi autem eligendi voluptatem, doloremque eum distinctio debitis? Maxime, doloremque sed repellendus perspiciatis repellat, minima nisi vel adipisci iure delectus et earum provident nostrum! Fuga?",
-            tags: ["React", "Tailwind css", "Figma"]
+            desc: "I am currently employed at Revergon Solutions as a Full Stack Web Developer. My role involves redesigning the company's website using Figma to significantly improve its UI and UX, aligning closely with the organization's mission and objectives. I have also developed the redesigned website in WordPress, translating my Figma designs into a functional platform. Additionally, I have had the opportunity to expand my skills by learning about AR and VR technologies.",
+            tags: ["Figma", "AR-VR", "Wordpress"]
         },
     ]
 
