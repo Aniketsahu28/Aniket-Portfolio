@@ -16,7 +16,7 @@ const ProjectCard = (params) => {
             <img src={params.image} alt="Project" className='rounded-t-xl' />
             <div className='px-[16px] flex flex-col gap-2'>
                 <h3 className='text-xl font-semibold'>{params.title}</h3>
-                <p>
+                <p className='text-[14px]'>
                     {truncateString(params.desc)}
                 </p>
                 <div className='my-3 flex gap-4'>

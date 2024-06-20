@@ -14,8 +14,7 @@ const Contact = () => {
         {
             blue: blueMail,
             green: greenMail,
-            link: 'mailto:aniketsahu1711@gmail.com?subject=Subject&body=Body'
-
+            link: 'mailto:aniketsahu1711@gmail.com?subject=Your%20Subject%20Here&body=Your%20Message%20Here',
         },
         {
             blue: blueWhatsapp,
