@@ -1,4 +1,5 @@
 import React from 'react'
+import Typewriter from 'typewriter-effect';
 import Aniket from "../assets/Aniket.jpg"
 import AniketResume from "../assets/AniketResume.pdf"
 
@@ -24,9 +25,18 @@ const HeroSection = () => {
             <div data-aos="fade-right" data-aos-duration="1000" className='w-full font-karla flex flex-col gap-2 lap:gap-4 lap:w-fit lap:mb-8 '>
                 <div className='text-3xl lap:text-6xl font-medium'>Hi, I'm <br /><span className='text-4xl lap:text-7xl'>Aniket Sahu</span>
                 </div>
-                <p className='w-full bg-black text-white text-xl lap:text-2xl flex flex-col lap:flex-row lap:gap-2 font-karla'>
+                <p className='w-full bg-black text-white text-xl lap:text-xl flex flex-col lap:flex-row lap:gap-2 font-karla'>
                     <span>A passionate</span>
-                    <span className='text-[#1AC576] font-semibold'>{`< Full Stack web Developer />`}</span>
+                    <span className='text-[#1AC576] font-semibold'>
+                        <Typewriter
+                            options={{
+                                strings: ['< Full Stack web Developer />', 'UI/UX designer'],
+                                autoStart: true,
+                                loop: true,
+                                deleteSpeed: 30, //delay between deleting each character
+                                delay: 50, //delay between typing each character
+                            }}
+                        /></span>
                 </p>
                 <div className='flex gap-4 text-xl font-medium mt-1'>
                     <button className='bg-[#1AC576] text-black hover:text-white py-2 px-4  rounded-lg' onClick={(e) => handleClick(e, "about")}>About me</button>

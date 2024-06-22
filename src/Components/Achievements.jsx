@@ -13,7 +13,7 @@ const Achievements = () => {
         {
             image: Hacktober2023,
             title: "Hacktober fest 2023 Contributor",
-            date: "January 2023"
+            date: "October 2023"
         },
     ]
     return (
