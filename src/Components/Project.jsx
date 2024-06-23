@@ -1,6 +1,11 @@
 import React, { useState } from 'react'
 import Carousel from './Carousel';
 import projectImg from "../assets/project.png"
+import Evernote from "../assets/Projects/Evernote.png"
+import taazakhabar from "../assets/Projects/taazakhabar.png"
+import ideaplots from "../assets/Projects/ideaplots.png"
+import portfolio from "../assets/Projects/3Dportfolio.png"
+import ieifcrit from "../assets/Projects/ieifcrit.png"
 
 
 const Project = () => {
@@ -12,82 +17,69 @@ const Project = () => {
     const devProjects = [
         {
             category: "development",
-            image: projectImg,
-            title: "Project title 1",
-            desc: "this is the project description which will show the description of project awill show the description of project...",
-            tags: ["html", "css", "javascript"],
+            image: Evernote,
+            title: "EverNote",
+            desc: "EverNote, a note-taking app, offers effortless organization and idea capture with a React frontend, Node.js backend, and MongoDB Atlas database.",
+            tags: ["MERN", "Cloud"],
+            deployLink: "https://evernote-cloud.web.app/",
+            githubLink: "https://github.com/Aniketsahu28/EverNote",
+        },
+        {
+            category: "development",
+            image: taazakhabar,
+            title: "Taaza khabar",
+            desc: "Taaza Khabar, built on React and integrated with the News API, delivers daily news content through a clean, user-friendly design.",
+            tags: ["React", "News'api", "Bootstrap"],
             deployLink: "",
+            githubLink: "https://github.com/Aniketsahu28/Taaza-Khabar-news-app",
+        },
+        {
+            category: "development",
+            image: ideaplots,
+            title: "Ideaplots",
+            desc: "A visually appealing website prototype for Ideaplots (a design agency), using Figma & React to highlight their web development and design services.",
+            tags: ["Figma", "React", "tailwind"],
+            deployLink: "https://ideaplots.com",
             githubLink: "",
         },
         {
             category: "development",
-            image: projectImg,
-            title: "Project title 2",
-            desc: "this is the project description which will show the description of project awill show the description of project...",
-            tags: ["html", "css", "javascript"],
-            deployLink: "",
-            githubLink: "",
+            image: portfolio,
+            title: "3D Portfolio",
+            desc: "A portfolio website showcasing my coding journey, skills, experiences, and achievements, offering an in-depth insight into my progress.",
+            tags: ["three.js", "React", "Tailwind"],
+            deployLink: "https://aniket-portfolio-4c631.web.app/",
+            githubLink: "https://github.com/Aniketsahu28/My-3D-portfolio",
         },
         {
             category: "development",
-            image: projectImg,
-            title: "Project title 3",
-            desc: "this is the project description which will show the description of project awill show the description of project...",
-            tags: ["html", "css", "javascript"],
-            deployLink: "",
-            githubLink: "",
-        },
-        {
-            category: "development",
-            image: projectImg,
-            title: "Project title 4",
-            desc: "this is the project description which will show the description of project awill show the description of project...",
-            tags: ["html", "css", "javascript"],
-            deployLink: "",
+            image: ieifcrit,
+            title: "IEI FCRIT",
+            desc: "A college club website showcasing events, team, and initiatives, serving as a central hub for members and visitors, fostering engagement.",
+            tags: ["Figma", "React", "Tailwind"],
+            deployLink: "https://ieifcritmech.in/",
             githubLink: "",
         },
     ]
 
     const designProjects = [
         {
-            category: "design",
-            image: projectImg,
-            title: "Design Project title 1",
-            desc: "this is the design project description which will show the description of project awill show the description of project...",
-            tags: ["figma"],
-            deployLink: "",
+            category: "development",
+            image: ideaplots,
+            title: "Ideaplots",
+            desc: "A visually appealing website prototype for Ideaplots (a design agency), using Figma & React to highlight their web development and design services.",
+            tags: ["Figma", "React", "tailwind"],
+            deployLink: "https://ideaplots.com",
+            githubLink: "",
         },
         {
-            category: "design",
-            image: projectImg,
-            title: "Design Project title 2",
-            desc: "this is the design project description which will show the description of project awill show the description of project...",
-            tags: ["figma"],
-            deployLink: "",
-        },
-        {
-            category: "design",
-            image: projectImg,
-            title: "Design Project title 3",
-            desc: "this is the design project description which will show the description of project awill show the description of project...",
-            tags: ["figma"],
-            deployLink: "",
-        },
-        {
-            category: "design",
-            image: projectImg,
-            title: "Design Project title 4",
-            desc: "this is the design project description which will show the description of project awill show the description of project...",
-            tags: ["figma"],
-            deployLink: "",
-        },
-        {
-            category: "design",
-            image: projectImg,
-            title: "Design Project title 5",
-            desc: "this is the design project description which will show the description of project awill show the description of project...",
-            tags: ["figma"],
-            deployLink: "",
+            category: "development",
+            image: ieifcrit,
+            title: "IEI FCRIT",
+            desc: "A college club website showcasing events, team, and initiatives, serving as a central hub for members and visitors, fostering engagement.",
+            tags: ["Figma", "React", "Tailwind"],
+            deployLink: "https://ieifcritmech.in/",
+            githubLink: "",
         },
     ]
 
