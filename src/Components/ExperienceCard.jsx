@@ -27,7 +27,7 @@ const ExperienceCard = ({ experience }) => {
                         <p>{experience.location}</p>
                     </span>
                     <p className='text-left'>{experience.desc}</p>
-                    <div className='flex gap-3'>
+                    <div className='flex gap-3 flex-wrap'>
                         {experience.tags.map((tag, i) => (
                             <span key={"tag" + i} className='border-2 border-[#57A8F4] px-3 py-1 rounded-lg'>{tag}</span>
                         ))}

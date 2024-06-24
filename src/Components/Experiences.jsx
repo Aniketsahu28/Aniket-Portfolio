@@ -9,8 +9,8 @@ const Experiences = () => {
             startDate: "30th May, 2024",
             endDate: "Present",
             location: "Navi Mumbai, India",
-            desc: "I am currently employed at Revergon Solutions as a Full Stack Web Developer. My role involves redesigning the company's website using Figma to significantly improve its UI and UX, aligning closely with the organization's mission and objectives. I have also developed the redesigned website in WordPress, translating my Figma designs into a functional platform. Additionally, I have had the opportunity to expand my skills by learning about AR and VR technologies.",
-            tags: ["Figma", "AR-VR", "Wordpress"]
+            desc: "I am currently employed at Revergon Solutions as a Full Stack Web Developer. My role involves redesigning the company's website using Figma to significantly improve its UI and UX, aligning closely with the organization's mission and objectives. I have also developed the redesigned website in WordPress, translating my Figma designs into a functional platform. Additionally, I have had the opportunity to expand my skills by learning about AR-VR technologies and google analytics.",
+            tags: ["Figma", "AR-VR", "Wordpress", "Google Analytics"]
         },
     ]
 

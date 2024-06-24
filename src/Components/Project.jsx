@@ -6,6 +6,8 @@ import taazakhabar from "../assets/Projects/taazakhabar.png"
 import ideaplots from "../assets/Projects/ideaplots.png"
 import portfolio from "../assets/Projects/3Dportfolio.png"
 import ieifcrit from "../assets/Projects/ieifcrit.png"
+import Cafeteria from "../assets/Projects/Cafeteria.png"
+import FurnitureStore from "../assets/Projects/FurnitureStore.png"
 
 
 const Project = () => {
@@ -15,6 +17,33 @@ const Project = () => {
     }
 
     const devProjects = [
+        {
+            category: "development",
+            image: ideaplots,
+            title: "Ideaplots",
+            desc: "A visually appealing website prototype for Ideaplots (a design agency), using Figma & React to highlight their web development and design services.",
+            tags: ["React", "tailwind"],
+            deployLink: "https://ideaplots.com",
+            githubLink: "",
+        },
+        {
+            category: "development",
+            image: ieifcrit,
+            title: "IEI FCRIT",
+            desc: "A college club website showcasing events, team, and initiatives, serving as a central hub for members and visitors, fostering engagement.",
+            tags: ["React", "Tailwind"],
+            deployLink: "https://ieifcritmech.in/",
+            githubLink: "",
+        },
+        {
+            category: "development",
+            image: portfolio,
+            title: "3D Portfolio",
+            desc: "A portfolio website showcasing my coding journey, skills, experiences, and achievements, offering an in-depth insight into my progress.",
+            tags: ["three.js", "React", "Tailwind"],
+            deployLink: "https://aniket-portfolio-4c631.web.app/",
+            githubLink: "https://github.com/Aniketsahu28/My-3D-portfolio",
+        },
         {
             category: "development",
             image: Evernote,
@@ -33,52 +62,43 @@ const Project = () => {
             deployLink: "",
             githubLink: "https://github.com/Aniketsahu28/Taaza-Khabar-news-app",
         },
-        {
-            category: "development",
-            image: ideaplots,
-            title: "Ideaplots",
-            desc: "A visually appealing website prototype for Ideaplots (a design agency), using Figma & React to highlight their web development and design services.",
-            tags: ["Figma", "React", "tailwind"],
-            deployLink: "https://ideaplots.com",
-            githubLink: "",
-        },
-        {
-            category: "development",
-            image: portfolio,
-            title: "3D Portfolio",
-            desc: "A portfolio website showcasing my coding journey, skills, experiences, and achievements, offering an in-depth insight into my progress.",
-            tags: ["three.js", "React", "Tailwind"],
-            deployLink: "https://aniket-portfolio-4c631.web.app/",
-            githubLink: "https://github.com/Aniketsahu28/My-3D-portfolio",
-        },
-        {
-            category: "development",
-            image: ieifcrit,
-            title: "IEI FCRIT",
-            desc: "A college club website showcasing events, team, and initiatives, serving as a central hub for members and visitors, fostering engagement.",
-            tags: ["Figma", "React", "Tailwind"],
-            deployLink: "https://ieifcritmech.in/",
-            githubLink: "",
-        },
     ]
 
     const designProjects = [
         {
-            category: "development",
+            category: "design",
             image: ideaplots,
             title: "Ideaplots",
             desc: "A visually appealing website prototype for Ideaplots (a design agency), using Figma & React to highlight their web development and design services.",
-            tags: ["Figma", "React", "tailwind"],
+            tags: ["Figma", "UI/UX"],
             deployLink: "https://ideaplots.com",
             githubLink: "",
         },
         {
-            category: "development",
+            category: "design",
             image: ieifcrit,
             title: "IEI FCRIT",
             desc: "A college club website showcasing events, team, and initiatives, serving as a central hub for members and visitors, fostering engagement.",
-            tags: ["Figma", "React", "Tailwind"],
+            tags: ["Figma", "UI/UX"],
             deployLink: "https://ieifcritmech.in/",
+            githubLink: "",
+        },
+        {
+            category: "design",
+            image: Cafeteria,
+            title: "Cafeteria",
+            desc: "Cafeteria, a responsive website designed in Figma for users to view and order food, ensuring a seamless and user-friendly experience.",
+            tags: ["Figma", "UI/UX", "Food"],
+            deployLink: "https://www.behance.net/gallery/201678257/Food-ordering-website",
+            githubLink: "",
+        },
+        {
+            category: "design",
+            image: FurnitureStore,
+            title: "Furniture store",
+            desc: "A responsive landing page of furniture store designed in Figma,enhancing user experience with a visually appealing layout.",
+            tags: ["Figma", "UI/UX", "Furniture"],
+            deployLink: "https://www.behance.net/gallery/201683303/Furniture-store",
             githubLink: "",
         },
     ]
@@ -96,7 +116,7 @@ const Project = () => {
                 <button id='design' onClick={handleClick} className={`border-2 border-[#1AC576] ${project == "design" ? "text-[#1AC576] font-medium" : "text-white font-normal"} px-4 py-2 rounded-lg text-lg font-inter`}>Design</button>
                 <button id='development' onClick={handleClick} className={`border-2 border-[#1AC576] ${project == "development" ? "text-[#1AC576] font-medium" : "text-white font-normal"} px-4 py-2 rounded-lg text-lg font-inter`}>Development</button>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1000" className='w-[100%]'>
+            <div data-aos="fade-up" data-aos-duration="1000" className='w-full'>
                 {
                     project == "development" ?
                         <Carousel projects={devProjects} />
