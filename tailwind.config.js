@@ -11,8 +11,8 @@ export default {
         inter: ["Inter", "sans-serif"],
       },
       backgroundImage: {
-        'blueCircle': "url('src/assets/blueCircle.png')",
-        'greenCircle': "url('src/assets/greenCircle.png')",
+        'blueCircle': "url('Components/blueCircle.png')",
+        'greenCircle': "url('Components/greenCircle.png')",
       }
     },
     screens: {
