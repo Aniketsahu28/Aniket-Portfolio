@@ -6,7 +6,7 @@ const HamburgerButton = ({ status, setStatus }) => {
         <>
             {/* Hamburger icon for mobile device */}
             <button
-                className="flex flex-col h-12 w-12 rounded justify-center items-center group "
+                className="flex flex-col h-10 w-12 rounded justify-center items-center group "
                 onClick={() => setStatus(!status)}
             >
                 <div

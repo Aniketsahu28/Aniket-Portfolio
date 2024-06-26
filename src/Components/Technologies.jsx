@@ -80,9 +80,9 @@ const Technologies = () => {
             </div>
             <div className='flex flex-wrap gap-8 items-center justify-center lap:w-[80%]'>
                 {Techs.map((tech, index) => (
-                    <div data-aos="zoom-in-up" data-aos-duration="800" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id={index} key={index} className='border-[3px] border-[#0E76D8] w-fit p-5 rounded-lg relative flex items-center justify-center bg-none'>
-                        <p className={`text-md font-semibold font-inter absolute uppercase ${show == index ? "flex" : "hidden"}`}>{tech.name}</p>
-                        <img src={tech.image} alt="technology" className={`w-20 lap:w-16 ${show == index ? 'opacity-30 scale-125' : 'opacity-100 scale-100'} transition-all`} />
+                    <div data-aos="zoom-in-up" data-aos-duration="800" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id={index} key={index} className='border-[3px] border-[#0E76D8] w-fit p-4 lap:p-5 rounded-lg relative flex items-center justify-center bg-none'>
+                        <p className={`text-sm lap:text-md font-semibold font-inter absolute uppercase ${show == index ? "flex" : "hidden"}`}>{tech.name}</p>
+                        <img src={tech.image} alt="technology" className={`w-16 ${show == index ? 'opacity-30 scale-125' : 'opacity-100 scale-100'} transition-all`} />
                     </div>
                 ))}
             </div>

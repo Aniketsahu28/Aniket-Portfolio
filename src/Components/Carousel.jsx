@@ -58,7 +58,7 @@ const Carousel = ({ projects }) => {
 
     return (
         <div className='flex justify-center relative items-end lap:items-center'>
-            <div className='w-full lap:w-[85%] overflow-hidden px-4'>
+            <div className='w-full lap:w-[85%] overflow-hidden px-0 lap:px-4'>
                 <div className='flex gap-14 transition-all ease-in-out duration-700 w-[100%]'
                     style={{
                         transform: `translate(-${current * scrollPercent}%)`

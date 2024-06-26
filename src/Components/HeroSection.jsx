@@ -14,7 +14,7 @@ const HeroSection = () => {
     };
 
     return (
-        <div className='text-white pt-28 pb-14 w-full flex flex-col lap:flex-row-reverse justify-center lap:justify-evenly items-center gap-6 overflow-hidden px-10'>
+        <div className='text-white pt-24 lap:pt-28 pb-14 w-full flex flex-col lap:flex-row-reverse justify-center lap:justify-evenly items-center gap-6 overflow-hidden px-8 lap:px-10'>
             <div data-aos="fade-left" data-aos-duration="1000" className='w-[320px] h-[320px] lap:w-[450px] lap:h-[450px] flex items-center justify-center'>
                 <div className='greenCircle bg-greenCircle h-[90%] w-[90%] bg-contain bg-no-repeat p-5 lap:p-6 flex items-center justify-center'>
                     <div className='blueCircle bg-blueCircle h-full w-full bg-contain bg-no-repeat p-5 lap:p-6'>

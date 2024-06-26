@@ -24,7 +24,7 @@ function App() {
   window.onresize = checkIsMobile;
   return (
     <Router>
-      <div className="bg-black flex flex-col items-center pt-6">
+      <div className="bg-black flex flex-col items-center pt-3 lap:pt-6">
         {isMobile ? <MobileNavbar /> : <DesktopNavbar />}
         <HeroSection />
         <About />
