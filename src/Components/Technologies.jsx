@@ -59,14 +59,14 @@ const Technologies = () => {
         },
     ]
 
-    const [show, setShow] = useState(50);
+    const [show, setShow] = useState(null);
 
     const handleMouseEnter = (e) => {
         setShow(e.target.id);
     }
 
     const handleMouseLeave = () => {
-        setShow(50);
+        setShow(null);
     }
 
     return (
@@ -82,7 +82,7 @@ const Technologies = () => {
                 {Techs.map((tech, index) => (
                     <div data-aos="zoom-in-up" data-aos-duration="800" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id={index} key={index} className='border-[3px] border-[#0E76D8] w-fit p-4 lap:p-5 rounded-lg relative flex items-center justify-center bg-none'>
                         <p className={`text-sm lap:text-md font-semibold font-inter absolute uppercase ${show == index ? "flex" : "hidden"}`}>{tech.name}</p>
-                        <img src={tech.image} alt="technology" className={`w-16 ${show == index ? 'opacity-30 scale-125' : 'opacity-100 scale-100'} transition-all`} />
+                        <img id={index} src={tech.image} alt="technology" className={`w-16 ${show == index ? 'opacity-30 scale-125' : 'opacity-100 scale-100'} transition-all`} />
                     </div>
                 ))}
             </div>
