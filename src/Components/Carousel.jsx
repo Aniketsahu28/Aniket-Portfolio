@@ -46,11 +46,12 @@ const Carousel = ({ projects }) => {
     );
 
     const [scrollPercent, setScrollPercent] = useState(
-        window.innerWidth < 850 ? 117.5 : 35
+        //window.innerWidth < 850 ? mobile : laptop
+        window.innerWidth < 850 ? (window.innerWidth < 390 ? 117.5 : 115) : 35
     );
 
     function checkIsMobile() {
-        setScrollPercent(window.innerWidth < 850 ? 117.5 : 35);
+        setScrollPercent(window.innerWidth < 850 ? (window.innerWidth < 390 ? 117.5 : 115) : 35);
         setIsMobile(window.innerWidth < 850 ? true : false);
     }
 
