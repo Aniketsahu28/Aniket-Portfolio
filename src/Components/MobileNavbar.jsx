@@ -55,17 +55,6 @@ const MobileNavbar = () => {
                     Technologies
                 </a>
                 <a
-                    href="#experiences"
-                    onClick={(e) => {
-                        handleClick(e, "experiences");
-                        setExpanded(!expanded);
-                    }}
-                    className={`${expanded ? "block" : "hidden"
-                        } hover:text-[#1AC576] relative text-xl w-full block `}
-                >
-                    Experiences
-                </a>
-                <a
                     href="#projects"
                     onClick={(e) => {
                         handleClick(e, "project");
@@ -75,6 +64,17 @@ const MobileNavbar = () => {
                         } hover:text-[#1AC576] relative text-xl w-full block `}
                 >
                     Projects
+                </a>
+                <a
+                    href="#experiences"
+                    onClick={(e) => {
+                        handleClick(e, "experiences");
+                        setExpanded(!expanded);
+                    }}
+                    className={`${expanded ? "block" : "hidden"
+                        } hover:text-[#1AC576] relative text-xl w-full block `}
+                >
+                    Experiences
                 </a>
                 <a
                     href="#contact"

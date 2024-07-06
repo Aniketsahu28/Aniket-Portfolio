@@ -17,8 +17,8 @@ const DesktopNavbar = () => {
             <div className='text-white flex lap:gap-10 lg:gap-10 text-lg'>
                 <Link to="#about" className='hover:text-[#1AC576]' onClick={(e) => handleClick(e, "about")}>About</Link>
                 <Link className='hover:text-[#1AC576]' onClick={(e) => handleClick(e, "technologies")}>Technologies</Link>
-                <Link className='hover:text-[#1AC576]' onClick={(e) => handleClick(e, "experiences")}>Experiences</Link>
                 <Link className='hover:text-[#1AC576]' onClick={(e) => handleClick(e, "project")}>Projects</Link>
+                <Link className='hover:text-[#1AC576]' onClick={(e) => handleClick(e, "experiences")}>Experiences</Link>
             </div>
             <Link className='text-white px-6 py-1 my-1 text-lg border-[#1AC576] hover:text-[#1AC576] border-2 rounded-full' onClick={(e) => handleClick(e, "contact")}>Contact</Link>
         </div>
