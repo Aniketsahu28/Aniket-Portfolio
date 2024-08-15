@@ -8,6 +8,7 @@ import portfolio from "../assets/Projects/3Dportfolio.png"
 import ieifcrit from "../assets/Projects/ieifcrit.png"
 import Cafeteria from "../assets/Projects/Cafeteria.png"
 import FurnitureStore from "../assets/Projects/FurnitureStore.png"
+import myfabrilia from "../assets/Projects/myfabrilia.png"
 
 
 const Project = () => {
@@ -65,6 +66,15 @@ const Project = () => {
     ]
 
     const designProjects = [
+        {
+            category: "design",
+            image: myfabrilia,
+            title: "Fabrilia",
+            desc: " Designed a user-centric e-commerce store in Figma, specializing in curtain sales, with an emphasis on seamless navigation and aesthetic appeal.",
+            tags: ["Figma", "UI/UX"],
+            deployLink: "https://myfabrilia.com/",
+            githubLink: "",
+        },
         {
             category: "design",
             image: ideaplots,
