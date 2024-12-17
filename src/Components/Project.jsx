@@ -4,6 +4,7 @@ import projectImg from "../assets/project.png"
 import Evernote from "../assets/Projects/Evernote.png"
 import taazakhabar from "../assets/Projects/taazakhabar.png"
 import ideaplots from "../assets/Projects/ideaplots.png"
+import agnelevents from "../assets/Projects/agnelevents.png"
 import portfolio from "../assets/Projects/3Dportfolio.png"
 import ieifcrit from "../assets/Projects/ieifcrit.png"
 import Cafeteria from "../assets/Projects/Cafeteria.png"
@@ -18,6 +19,15 @@ const Project = () => {
     }
 
     const devProjects = [
+        {
+            category: "development",
+            image: agnelevents,
+            title: "Event booking system",
+            desc: "Developed a digital event approval and booking system, replacing paper processes, enabling students to view and book campus events efficiently.",
+            tags: ["MERN", "Figma"],
+            deployLink: "https://agnelevents.vercel.app/",
+            githubLink: "https://github.com/Aniketsahu28/Event-Managemet-System",
+        },
         {
             category: "development",
             image: ideaplots,
@@ -54,15 +64,15 @@ const Project = () => {
             deployLink: "https://evernote-cloud.web.app/",
             githubLink: "https://github.com/Aniketsahu28/EverNote",
         },
-        {
-            category: "development",
-            image: taazakhabar,
-            title: "Taaza khabar",
-            desc: "Taaza Khabar, built on React and integrated with the News API, delivers daily news content through a clean, user-friendly design.",
-            tags: ["React", "News'api", "Bootstrap"],
-            deployLink: "",
-            githubLink: "https://github.com/Aniketsahu28/Taaza-Khabar-news-app",
-        },
+        // {
+        //     category: "development",
+        //     image: taazakhabar,
+        //     title: "Taaza khabar",
+        //     desc: "Taaza Khabar, built on React and integrated with the News API, delivers daily news content through a clean, user-friendly design.",
+        //     tags: ["React", "News'api", "Bootstrap"],
+        //     deployLink: "",
+        //     githubLink: "https://github.com/Aniketsahu28/Taaza-Khabar-news-app",
+        // },
     ]
 
     const designProjects = [

@@ -4,6 +4,8 @@ import css from "../assets/Technologies/css.png"
 import js from "../assets/Technologies/js.png"
 import java from "../assets/Technologies/java.png"
 import figma from "../assets/Technologies/figma.png"
+import node from "../assets/Technologies/nodejs.png"
+import express from "../assets/Technologies/express.png"
 import mongo from "../assets/Technologies/mongo.png"
 import tailwind from "../assets/Technologies/tailwind.png"
 import webflow from "../assets/Technologies/webflow.png"
@@ -14,6 +16,34 @@ import wordpress from "../assets/Technologies/wordpress.png"
 const Technologies = () => {
     const Techs = [
         {
+            name: "Java",
+            image: java
+        },
+        {
+            name: "React",
+            image: react
+        },
+        {
+            name: "Node",
+            image: node
+        },
+        {
+            name: "Express",
+            image: express
+        },
+        {
+            name: "Mongo DB",
+            image: mongo
+        },
+        {
+            name: "Tailwind",
+            image: tailwind
+        },
+        {
+            name: "Figma",
+            image: figma
+        },
+        {
             name: "HTML",
             image: html
         },
@@ -22,28 +52,8 @@ const Technologies = () => {
             image: css
         },
         {
-            name: "Tailwind",
-            image: tailwind
-        },
-        {
             name: "Javascript",
             image: js
-        },
-        {
-            name: "React",
-            image: react
-        },
-        {
-            name: "Mongo DB",
-            image: mongo
-        },
-        {
-            name: "Figma",
-            image: figma
-        },
-        {
-            name: "Java",
-            image: java
         },
         {
             name: "Wordpress",

@@ -7,7 +7,7 @@ const Experiences = () => {
         {
             title: "Full Stack developer @Revergon Solutions",
             startDate: "30th May, 2024",
-            endDate: "Present",
+            endDate: "31st July 2024",
             location: "Navi Mumbai, India",
             desc: "Employed as an intern at Revergon Solutions as a Full Stack Web Developer. My role involved redesigning the company's website using Figma to significantly improve its UI and UX, aligning closely with the organization's mission and objectives. I have also developed the redesigned website in WordPress, translating my Figma designs into a functional platform. Created design elements and an App design for the website in figma. Additionally, I understand google analytics (GA4) and implemented it in the webiste.",
             tags: ["Figma", "Wordpress", "Google Analytics", "UI/UX"]
