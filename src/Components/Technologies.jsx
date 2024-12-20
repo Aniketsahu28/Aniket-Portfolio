@@ -6,6 +6,7 @@ import java from "../assets/Technologies/java.png"
 import figma from "../assets/Technologies/figma.png"
 import node from "../assets/Technologies/nodejs.png"
 import express from "../assets/Technologies/express.png"
+import typescript from "../assets/Technologies/typescript.png"
 import mongo from "../assets/Technologies/mongo.png"
 import tailwind from "../assets/Technologies/tailwind.png"
 import webflow from "../assets/Technologies/webflow.png"
@@ -30,6 +31,10 @@ const Technologies = () => {
         {
             name: "Express",
             image: express
+        },
+        {
+            name: "Typescript",
+            image: typescript
         },
         {
             name: "Mongo DB",
