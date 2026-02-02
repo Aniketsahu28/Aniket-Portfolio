@@ -10,7 +10,7 @@ import ieifcrit from "../assets/Projects/ieifcrit.png"
 import Cafeteria from "../assets/Projects/Cafeteria.png"
 import FurnitureStore from "../assets/Projects/FurnitureStore.png"
 import myfabrilia from "../assets/Projects/myfabrilia.png"
-
+import journa from "../assets/Projects/Journa.png"
 
 const Project = () => {
     const [project, setProject] = useState("development");
@@ -19,6 +19,15 @@ const Project = () => {
     }
 
     const devProjects = [
+        {
+            category: "development",
+            image: journa,
+            title: "Journa",
+            desc: "Built a responsive Next.js web application using TypeScript, Prisma, and PostgreSQL to help users organize and track personal goals, with a focus on clean UI/UX, performance, and scalability.",
+            tags: ["Next.js", "Prisma", "PostgreSQL"],
+            deployLink: "https://journa-web.vercel.app/accounts/login",
+            githubLink: "",
+        },
         {
             category: "development",
             image: agnelevents,
@@ -48,15 +57,6 @@ const Project = () => {
         },
         {
             category: "development",
-            image: portfolio,
-            title: "3D Portfolio",
-            desc: "A portfolio website showcasing my coding journey, skills, experiences, and achievements, offering an in-depth insight into my progress.",
-            tags: ["three.js", "React", "Tailwind"],
-            deployLink: "https://aniket-portfolio-4c631.web.app/",
-            githubLink: "https://github.com/Aniketsahu28/My-3D-portfolio",
-        },
-        {
-            category: "development",
             image: Evernote,
             title: "EverNote",
             desc: "EverNote, a note-taking app, offers effortless organization and idea capture with a React frontend, Node.js backend, and MongoDB Atlas database.",
@@ -64,15 +64,6 @@ const Project = () => {
             deployLink: "https://evernote-cloud.web.app/",
             githubLink: "https://github.com/Aniketsahu28/EverNote",
         },
-        // {
-        //     category: "development",
-        //     image: taazakhabar,
-        //     title: "Taaza khabar",
-        //     desc: "Taaza Khabar, built on React and integrated with the News API, delivers daily news content through a clean, user-friendly design.",
-        //     tags: ["React", "News'api", "Bootstrap"],
-        //     deployLink: "",
-        //     githubLink: "https://github.com/Aniketsahu28/Taaza-Khabar-news-app",
-        // },
     ]
 
     const designProjects = [

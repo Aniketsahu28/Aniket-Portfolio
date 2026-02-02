@@ -5,6 +5,14 @@ const Experiences = () => {
 
     const experiences = [
         {
+            title: "Assistant Manager II @The Clearing Corporation of India (CCIL)",
+            startDate: "16th June, 2025",
+            endDate: "Present",
+            location: "Mumbai, India",
+            desc: "Developed and maintained scalable backend services using Spring Boot for internal financial systems. Built responsive frontend interfaces using React, improving usability for internal users. Collaborated with business analysts, QA engineers, and senior developers to deliver secure and high-performance applications. Worked on API integrations, bug fixes, and performance optimizations to streamline operational workflows.",
+            tags: ["React", "Spring Boot", "Oracle Sql Developer", "Singlestore", "MySql", "Jasper Studio"]
+        },
+        {
             title: "Full Stack developer @Revergon Solutions",
             startDate: "30th May, 2024",
             endDate: "31st July 2024",

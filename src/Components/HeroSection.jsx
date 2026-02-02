@@ -1,6 +1,6 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
-import Aniket from "../assets/Aniket.jpg"
+import Aniket from "../assets/Aniket.jpeg"
 import AniketResume from "../assets/AniketResume.pdf"
 
 const HeroSection = () => {

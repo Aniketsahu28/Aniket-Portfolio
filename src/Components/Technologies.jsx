@@ -14,12 +14,24 @@ import git from "../assets/Technologies/git.png"
 import react from "../assets/Technologies/react.png"
 import wordpress from "../assets/Technologies/wordpress.png"
 import mysql from "../assets/Technologies/mysql.png"
+import next from "../assets/Technologies/next.png"
+import postgresql from "../assets/Technologies/postgresql.png"
+import prisma from "../assets/Technologies/prisma.png"
+import springboot from "../assets/Technologies/springboot.svg"
 
 const Technologies = () => {
     const Techs = [
         {
             name: "Java",
             image: java
+        },
+        {
+            name: "Springboot",
+            image: springboot
+        },
+        {
+            name: "Next.js",
+            image: next
         },
         {
             name: "React",
@@ -38,12 +50,20 @@ const Technologies = () => {
             image: typescript
         },
         {
+            name: "Prisma",
+            image: prisma
+        },
+        {
             name: "Mongo DB",
             image: mongo
         },
         {
             name: "MySql",
             image: mysql
+        },
+        {
+            name: "Postgresql",
+            image: postgresql
         },
         {
             name: "Tailwind",
@@ -98,7 +118,7 @@ const Technologies = () => {
                 </div>
                 <p className='text font-inter lap:text-md'>Proficiencies I've developed in various technologies</p>
             </div>
-            <div className='flex flex-wrap gap-6 lap:gap-8 items-center justify-center lap:w-[80%]'>
+            <div className='flex flex-wrap gap-6 lap:gap-8 items-center justify-center lap:w-[90%]'>
                 {Techs.map((tech, index) => (
                     <div data-aos="zoom-in-up" data-aos-duration="800" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} id={index} key={index} className='border-[2px] lap:border-[3px] border-[#0E76D8] w-[28%] lap:w-fit p-4 lap:p-5 rounded-lg relative flex items-center justify-center bg-none'>
                         <p className={`text-sm lap:text-md font-semibold font-inter absolute uppercase ${show == index ? "flex" : "hidden"}`}>{tech.name}</p>

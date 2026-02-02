@@ -28,9 +28,11 @@ const About = () => {
                         <span className='px-4 py-3 border-[#0E76D8] border-[3px] w-fit rounded-lg hover:border-[#1AC576] hover:scale-105 transition-all self-start'>Freelancer</span>
                     </div>}
                 <p className='font-inter lap:w-[60%] lap:text-[17px] lap:leading-7 lap:text-justify'>
-                    I am a 4th year undergraduate student currently pursuing my Computer Engineering degree at FCRIT (Father Agnels), vashi.
+                    I'm Aniket Sahu, a Full Stack Developer with 8+ months of hands-on industry experience working primarily with Spring Boot, React, and Next.js. I currently work at The Clearing Corporation of India Limited (CCIL), where I develop and maintain backend services and build internal web applications used in financial systems.
                     <br /><br />
-                    I am a passionate Web developer, UI/UX designer and a freelancer. Through hands-on experience and a commitment to ongoing learning, I have honed my skills in React, Node, Express, Typescript, MongoDB, MySQL, Java, HTML, CSS, Tailwind CSS, Javascript. Beyond the coding realm, I extend my expertise to UI/UX design, where I leverage tools such as Figma to conceptualize and create user-centric interfaces. The fusion of my technical skills with a keen eye for design enables me to deliver holistic solutions that prioritize both functionality and aesthetics. I also hold expertise in creating no-code websites using wordpress and webflow.
+                    I enjoy working across the stack, from designing APIs and handling databases to building clean, responsive user interfaces. Alongside development, I have a strong interest in UI/UX design and often use Figma to design interfaces that are simple, practical, and user-focused.
+                    <br /><br />
+                    I like building products that solve real problems, scale well, and balance functionality with a good user experience.
                 </p>
             </div>
         </div>
